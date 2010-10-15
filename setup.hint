@@ -1,0 +1,8 @@
+category: Utils
+requires: alternatives libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libpango1.0_0
+sdesc: "Unison file syncronizer with GTK+ interface (2.27 branch)"
+ldesc: "Unison is a file-synchronization tool for Unix and Windows. It 
+allows two replicas of a collection of files and directories to be 
+stored on different hosts (or different disks on the same host), 
+modified separately, and then brought up to date by propagating the 
+changes in each replica to the other."
