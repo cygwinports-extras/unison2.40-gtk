@@ -4,7 +4,6 @@ slot=${PV_MAJ_MIN}
 DESCRIPTION="Unison File Synchronizer (version ${slot})"
 HOMEPAGE="http://www.seas.upenn.edu/~bcpierce/unison/"
 SRC_URI="${HOMEPAGE}/download/releases/${ORIG_PN}-${PV}/${ORIG_PN}-${PV}.tar.gz"
-PATCH_URI="2.40-makefile.patch"
 
 src_compile() {
 	lndirs
