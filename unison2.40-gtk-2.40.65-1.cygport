@@ -1,7 +1,13 @@
 ORIG_PN=unison
 slot=${PV_MAJ_MIN}
 
-DESCRIPTION="Unison File Synchronizer (version ${slot})"
+CATEGORY="Utils"
+SUMMARY="Unison File Synchronizer (version ${slot})"
+DESCRIPTION="Unison is a file-synchronization tool for Unix and Windows. It
+allows two replicas of a collection of files and directories to be stored on
+different hosts (or different disks on the same host), modified separately,
+and then brought up to date by propagating the changes in each replica to the
+other."
 HOMEPAGE="http://www.seas.upenn.edu/~bcpierce/unison/"
 SRC_URI="${HOMEPAGE}/download/releases/${ORIG_PN}-${PV}/${ORIG_PN}-${PV}.tar.gz"
 
